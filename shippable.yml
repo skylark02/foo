@@ -3,3 +3,9 @@ python: 2.7
 install: true
 script:
  - cat shippable.yml
+notifications:
+ email:
+  recipients:
+   - ragesh@rageshkrishna.com
+  on_success: always
+  on_failure: always 
